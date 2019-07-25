@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Fsega_Inscrisi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="inscrisi.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="inscrisi.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
